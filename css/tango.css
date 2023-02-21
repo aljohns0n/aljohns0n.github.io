@@ -80,12 +80,17 @@ h3{
 
 p{
     font-family:"Be Vietnam Pro";
+    color:#939393;
+    font-weight:100;
+    font-size:1.1em;
+    margin:auto;
 }
 
 /*override bootstrap list-group-item*/
 .list-group-item{
    font-family:"Be Vietnam Pro";
     border: 0;
+    padding:0;
 }
 
 /* css to change with bootstrap responsive size */
