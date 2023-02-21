@@ -1,0 +1,27 @@
+/*nav bar styling*/
+    .navbar-logo{
+        height:3em;
+        width:auto;
+        padding-left:1em;
+    }
+
+    .navbar-brand{
+        padding-left: 20px;
+    }
+
+    .nav-link{
+        font-family: 'Be Vietnam Pro';
+        font-size: 1.1em;
+        color:#939393;
+ 
+    }
+
+    .nav-link:hover{
+        color: black
+    }
+
+    .nav-active{
+        color: #C72A85;
+        border-bottom: 3px solid;
+
+    }

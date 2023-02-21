@@ -1,0 +1,256 @@
+h{
+    font-family: "Be Vietnam Pro";
+}
+p{
+    font-family: "Be Vietnam Pro";
+    font-weight: 400;
+    font-size: 1em;
+}
+/*nav bar styling*/
+    .navbar-logo{
+        height:3em;
+        width:auto;
+        padding-left:1em;
+    }
+
+    .navbar-brand{
+        padding-left: 20px;
+    }
+
+    .nav-link{
+        font-family: 'Be Vietnam Pro';
+        font-size: 1.1em;
+        color:#939393;
+ 
+    }
+
+    .nav-link:hover{
+        color: black
+    }
+
+    .nav-active{
+        color: #C72A85;
+        border-bottom: 3px solid;
+
+    }
+
+/*footer styling*/
+    #footer-container{
+        margin-top:5em;
+        padding-left:5em;
+        padding-right:5em;
+        padding-top:6em;
+        padding-bottom:5em;
+    }
+
+    .footer-icons{
+        padding-right:1.5em;
+        padding-left:0;
+        padding-top:0;
+    }
+    .footer-work{
+        padding-right:0;
+        padding-top:0;
+        padding-bottom:.5em;
+        text-align:end;
+        font-size: 1em;
+    }
+.footer-header{
+    font-size:1.4em;
+    text-align:end
+}
+
+    
+.card{
+    border-color: white;
+    padding-top: 2em;
+    
+}
+
+.card-left{
+    padding-left: 5em;
+    padding-right:1em;
+}
+
+.card-right{
+    padding-right:5em;
+    padding-left:1em;
+}
+
+/*view case study button*/
+.btn-case {
+    font-family: "Playfair Display";
+    font-size:1.1em;
+    color: #939393;
+    background-color: #FFFFFF;
+    border-radius: 0;
+    padding:0;
+}
+.btn-case:hover{
+    background-color: #FFD1E9;
+}
+
+.button-case-text{
+    border-left: .2em;
+    border-left-style: solid;
+    padding-left:.4em;
+    padding-right: .4em;
+}
+
+.button-case-text:hover{
+    border-left-color:#FFD1E9;
+}
+
+
+/*footer*/
+
+/*Accordion*/
+    .accordion-header-text{
+        font-family:"Playfair Display";
+        font-weight:700;
+        font-size: 3em;
+        width:auto;
+        margin:auto;
+        text-align: center;
+        padding:.2em;
+    }
+
+    /*underlines case study title when accordion is open*/
+        #accordion-open-tango:not(.collapsed){
+            background-color: #D8EDFF;
+        }
+        #accordion-open-FRIJ:not(.collapsed){
+            background-color: #FFEE99;
+        }
+
+    /*sets bg-color & txt color when accordion is open*/
+    .accordion-button:not(.collapsed) {
+        color: black;
+        background-color: white;
+    }
+
+    /*overwrite bootstrap default - "arrow" icon only takes up width of icon*/
+    .accordion-button:after{
+        margin:0;
+    }
+
+    /*overwrite bootstrap default - accordion is clicked, no blue "focus" box appears*/
+    .accordion-button:focus{
+        box-shadow: 0 0 0 0;
+    }
+
+    /*overwrite bootstrap default - when accordion is clicked, no bottom line*/
+    .accordion-button{
+        border: 0px;
+    }
+
+    /*overwrite bootstrap default - when accordion is clicked, no bottom line*/
+    .accordion-collapse{
+        border:0px;
+    }
+
+    /*overwrite bootstrap default - when accordion is clicked, no bottom line*/
+    .accordion-case-description{
+        font-family: "Be Vietnam Pro";
+        font-size: 1.1em;
+        font-weight: 400;
+        margin: auto;
+        padding-left:1em;
+        padding-right:1em;
+        padding-bottom: 1em;
+        text-align: center;
+    }
+    
+    .btn-primary {
+        color: #fff;
+        background-color: #0d6efd;
+        border-color: #0d6efd;
+    }
+
+/*hero image formatting*/
+    #hero-image{
+        margin-left:8%;
+        margin-right:8%;
+        padding-top:10em;
+        padding-bottom:7em;
+    }
+
+    #sub-hero-text{
+        padding-top:2em;
+        text-align: center;
+        font-weight: 100;
+        font-size: 1.5em;
+        color:#939393;
+        padding-bottom: 0px;
+    }
+
+/* skills formatting*/
+    .skills-header{
+        text-align: center;
+        
+    }
+
+    .skills-card{
+        box-shadow: 0 0 1em rgba(205, 205, 205, .4);
+        border-radius: .5em;
+        padding:1.5em 0em 1.2em 0em;
+        margin-left:1em;
+        margin-right:1em;
+    }
+    .skills-title{
+        font-family: "Be Vietnam Pro";
+        font-size:1.4em;
+        font-weight: 600;
+    }
+    /*overwrite list-group-item class*/
+    .list-group-item{
+        border: 0px;
+        margin:auto;
+        padding: 0rem;
+        font-family: "Be Vietnam Pro";
+        color:#939393;
+        font-weight:200;
+        font-size: 1em;
+    }
+
+#skills-name{
+    font-family:"Be Vietnam Pro";
+    text-align: center;
+    
+}
+.margin-styling{
+    margin:2em 1.5em 10em 1.5em;
+}
+
+
+
+/* css to change with bootstrap responsive size */
+@media only screen and (max-width: 767px) {
+        .card-right{
+            padding-left:2.5em;
+            padding-right:2.5em;
+        }
+        .card-left{
+            padding-left:2.5em;
+            padding-right:2.5em;
+        }
+        .card{
+            padding-top:0;
+        }
+        #hero-image{
+            margin-left: 8%;
+            margin-right: 8%;
+        }
+        #sub-hero-text{
+        padding-top:2em;
+        text-align: center;
+        font-weight: 100;
+        font-size: 1em;
+        color:#939393;
+        padding-bottom: 0px;
+        }
+    .skills-col{
+        margin-top:2em;
+    }
+    }
+}

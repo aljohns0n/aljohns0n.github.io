@@ -1,0 +1,259 @@
+    <!doctype html>
+    <html lang="en">
+        <head>
+        <!-- Required meta tags -->
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Bootstrap CSS -->
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+            
+        <!-- Stylesheet -->
+            <link href="css/index.css" rel="stylesheet">
+        
+        <!-- Google Fonts -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Be+Vietnam+Pro:200, 400, 700
+                |Playfair+Display:400,700">
+        </head>
+
+        <body>
+
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg bg-white">
+          <div class="container-fluid">
+              
+            <!-- Icon -->
+            <a class="navbar-brand" href="index.html">
+              <img src="images/Logo.png" class="navbar-logo"/>
+            </a>
+              
+            <!-- Nav Links -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+              <ul class="navbar-nav ms-auto me-3">
+                  
+                <!-- Dropdown-->  
+                <li class="nav-item dropdown ">
+                    <a class="nav-link nav-active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Work</a>
+                    <ul class="dropdown-menu">
+                        <li><a class = "dropdown-item" href="Tango.html">Tango</a></li>
+                        <li><a class = "dropdown-item">FRIJ</a></li>
+                        <li><a class = "dropdown-item">View All</a></li>
+                    </ul>
+                </li>
+                  
+                <li class="nav-item"><a class="nav-link" aria-current="page" href="#">About</a></li>
+                <li class="nav-item"><a class="nav-link " href="#">Resume</a></li>
+              </ul>
+            </div>
+           
+          </div>
+        </nav>
+
+        <!-- Hero -->
+        <div id = "hero-image">
+            <img src="images/Group%2039.png" class="img-fluid"/>
+            <p id = "sub-hero-text">A financial consultant turned UX Designer</p>
+        </div>
+            
+            
+        <!-- Case Studies --> 
+        <div class = "row row-cols-1 row-cols-md-2 g-4">
+
+            <!-- Tango -->
+            <div class ="col">     
+                <div class = "card card-left" style>
+                    <div class = "card-body">
+                        
+                        <!-- Accordion -->
+                        <div class="accordion accordion-flush" id="accordionTango">
+                            <div class = "accordion-item">
+                                <!--Accordion closed-->
+                                <h2 class="accordion-header" id="headingTango"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#tangoCollapse" aria-expanded="true" aria-controls="tangoCollapse">
+                                    <div class="accordion-header-text" id="accordion-open-tango" data-bs-toggle="collapse" data-bs-target="#tangoCollapse" aria-expanded="true" aria-controls="tangoCollapse">Tango</div>
+                                </button>
+                                </h2>
+                                
+                                <!--Accordion Open-->
+                                <div id="tangoCollapse" class="accordion-collapse collapse show" aria-labelledby="headingTango" data-bs-parent="#accordionTango">
+                                    <p class="accordion-case-description">A mobile travel app designed for pet owners to make the experience and process of traveling with their furry friends reliable and stress-free.</p>
+                                    
+                                    <!-- View case study button-->
+                                    <div class="d-grid gap-2 d-md-flex justify-content-md-end" style="margin-right:2em;">
+                                        <button class="btn btn-case" type="button"><div class="button-case-text">View Case Study</div></button>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <img src ="images/Tango_Casestudy_Home.png" class="card-img-bottom">
+                </div>  
+            </div>
+            
+        <!-- FRIJ --> 
+         <div class ="col">     
+                <div class = "card card-right" style>
+                    <div class = "card-body">
+                        
+                        <!-- Accordion -->
+                        <div class="accordion accordion-flush" id="accordionFRIJ">
+                            <div class = "accordion-item">
+                                <!--Accordion closed-->
+                                <h2 class="accordion-header" id="headingFRIJ"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#FRIJCollapse" aria-expanded="true" aria-controls="FRIJCollapse">
+                                    <div class="accordion-header-text" id="accordion-open-FRIJ" data-bs-toggle="collapse" data-bs-target="#FRIJCollapse" aria-expanded="true" aria-controls="FRIJCollapse">FRIJ</div>
+                                </button>
+                                </h2>
+                                
+                                <!--Accordion Open-->
+                                <div id="FRIJCollapse" class="accordion-collapse collapse show" aria-labelledby="headingFRIJ" data-bs-parent="#accordionFRIJ">
+                                    <p class="accordion-case-description">A mobile app to help motivate individuals and households to use their groceries in a fun, interactive way and reduce food waste
+                                    </p>
+                                    
+                                    <!-- View case study button-->
+                                    <div class="d-grid gap-2 d-md-flex justify-content-md-end" style="margin-right:2em;">
+                                        <button class="btn btn-case" type="button"><div class="button-case-text">View Case Study</div></button>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <img src ="images/CasseStudy2_placeholder.png">
+                </div>  
+            </div>
+        </div>
+            
+        <!--Skills-->
+        <div class= "container-fluid" style="margin-top:12em;">
+            <h1 id = "skills-name">SKILLS</h1>
+        </div>
+        <div class = "row row-cols-1 row-cols-md-4 margin-styling">
+            <!--skill 1-->
+            <div class = "col skills-col">
+                <div class = "card h-100 skills-card">
+                    <div class = "card-body skills-header">
+                        <h4 class = "card-title skills-title">User Research</h4>
+                        <ul class = "list-group">
+                            <li class = "list-group-item">Personas</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class = "col skills-col">
+                <div class = "card h-100 skills-card">
+                    <div class = "card-body skills-header">
+                        <h4 class = "card-title skills-title">User Interface Design</h4>
+                        <ul class = "list-group">
+                            <li class = "list-group-item">Wireframing</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class = "col skills-col">
+                <div class = "card h-100 skills-card">
+                    <div class = "card-body skills-header">
+                        <h4 class = "card-title skills-title">Web Design</h4>
+                        <ul class = "list-group">
+                            <li class = "list-group-item">HTML</li>
+                            <li class = "list-group-item">CSS</li>
+                            <li class = "list-group-item">Boostrap</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class = "col skills-col">
+                <div class = "card h-100 skills-card">
+                    <div class = "card-body skills-header">
+                        <h4 class = "card-title skills-title">Applications</h4>
+                            <li class = "list-group-item">Adobe (XD, Photoshop, Illustrator) </li>
+                            <li class = "list-group-item">Figma </li>
+                            <li class = "list-group-item">Procreate</li>
+                            <li class = "list-group-item">InVision</li>
+                    </div>                
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class = "container-fluid" id="footer-container", style="background-color: #f3f3f3">
+            <footer class="row row-cols-5 px-5 align-items-top">
+                <div class = "col">
+                   <img src="images/Logo.png" style="width:auto; height:4em"/>
+                    
+                    <ul class="list-unstyled d-flex justify-content-left pt-2 m-0">
+
+                    </ul>
+                    <p style="font-size:.8em;color:#939393">©2023 Alex Johnson</p>
+                </div>
+                <div class="col"></div>
+                <div class="col">
+                   
+                </div>
+                    
+                <div class="col">
+                    <h2 class="footer-header">Let's Connect</h2>
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                        <a class="nav-link footer-icons footer-work">
+                            LinkedIn 
+                            <svg xmlns="http://www.w3.org/2000/svg" width="22" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link footer-icons footer-work">
+                            Email
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="auto" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                              <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class=" nav-item">
+                        <a class="nav-link footer-icons footer-work">
+                            Phone
+                            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="auto" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                              <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                            </svg>
+                        </a>
+                    </li>
+            
+                    </ul>
+                </div>
+                   
+             
+                <div class="col">
+                <ul class = "nav flex-column m-0 pe-5 justify-content-end list-unstyled">
+                    <h2 class = "footer-header">
+                        Work
+                    </h2>
+                    <li class="nav-link footer-work" style="text-align:end">
+                        Tango
+                    </li>
+                    <li class="nav-link footer-work" style="text-align:end">
+                        FRIJ
+                    </li>
+                      <li class="nav-link footer-work" style="text-align:end">
+                        Placeholder
+                    </li>
+                      <li class="nav-link footer-work" style="text-align:end">
+                        Placeholder2
+                    </li>
+                </ul>
+                    </div>
+            </footer>
+        </div>
+
+        <!-- Bootstrap -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+        
+        <!--JS-->
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+        <script src = 'main.js'></script>
+
+      </body>
+
+    </html>
