@@ -19,7 +19,7 @@
         <body>
 
         <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg bg-white">
+        <nav id="main-nav" class="navbar navbar-expand-lg bg-white">
           <div class="container-fluid">
               
             <!-- Icon -->
@@ -38,19 +38,21 @@
                 <li class="nav-item dropdown ">
                     <a class="nav-link nav-active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Work</a>
                     <ul class="dropdown-menu">
-                        <li><a class = "dropdown-item active" href="tango.html" aria-current="true">Tango</a></li>
+                        <li><a class = "dropdown-item" href="tango.html">Tango</a></li>
                         <li><a class = "dropdown-item">FRIJ</a></li>
                         <li><a class = "dropdown-item">View All</a></li>
                     </ul>
                 </li>
                   
-                <li class="nav-item"><a class="nav-link" aria-current="page" href="#">About</a></li>
-                <li class="nav-item"><a class="nav-link " href="#">Resume</a></li>
+                <li class="nav-item"><a class="nav-link" aria-current="page">About</a></li>
+                <li class="nav-item"><a class="nav-link ">Resume</a></li>
               </ul>
             </div>
            
           </div>
         </nav>
+            
+            
 
         <!--hero image for case study-->
         <div class = "container-fluid" style="padding:0">
@@ -58,6 +60,7 @@
             <h1 class="tango-header-text" id="tango-header-text-title">Tango</h1>
             <p class = "tango-header-text" id = "tango-header-text-sub">Show your pet the world</p>
         </div>
+            
    
         <!--Project Overivew-->
         <div class="container my-5">
@@ -116,69 +119,75 @@
         </div>
             
         <!--User Research-->
-        <div class = "container">
+        <div class = "container-fluid">
             <div class = "row text-center">
                 <div>
                     <span class = "badge bg-secondary">1. User Research</span>
                 </div>
+                
             </div>
-            
-            <!--scrollspy-->
-            <div class="row">
-  <div class="col-4">
-    <nav id="navbar-example3" class="h-100 flex-column align-items-stretch pe-4 border-end">
-      <nav class="nav nav-pills flex-column">
-        <a class="nav-link" href="#item-1">Item 1</a>
-        <nav class="nav nav-pills flex-column">
-          <a class="nav-link ms-3 my-1" href="#item-1-1">Item 1-1</a>
-          <a class="nav-link ms-3 my-1" href="#item-1-2">Item 1-2</a>
-        </nav>
-        <a class="nav-link" href="#item-2">Item 2</a>
-        <a class="nav-link" href="#item-3">Item 3</a>
-        <nav class="nav nav-pills flex-column">
-          <a class="nav-link ms-3 my-1" href="#item-3-1">Item 3-1</a>
-          <a class="nav-link ms-3 my-1" href="#item-3-2">Item 3-2</a>
-        </nav>
-      </nav>
-    </nav>
-  </div>
+           
+         
+        <!--scrollspy-->
+        <div class="row">
+          <div class="col-3">
+            <nav id="user-research" class="h-100 flex-column align-items-stretch pe-4 border-end">
+              <nav class="nav nav-pills flex-column">
+                <a class="nav-link" href="#item-1">Research Objective</a>
+                <a class="nav-link" href="#item-2">Proto-Persona</a>
+                <a class="nav-link" href="#item-3">User Interviews and Survey</a>
+                <a class="nav-link" href="#item-4">User Insights</a>
+                    <nav class="nav nav-pills flex-column">
+                          <a class="nav-link ms-3 my-1" href="#item-4-1">Affinity Diagram</a>
+                    </nav>
+                    <nav class="nav nav-pills flex-column">
+                          <a class="nav-link ms-3 my-1" href="#item-4-2">Empathy Map</a>
+                    </nav>
+                    <nav class="nav nav-pills flex-column">
+                          <a class="nav-link ms-3 my-1" href="#item-4-3">User Persona</a>
+                    </nav>
+              </nav>
+            </nav>
+          </div>
 
-  <div class="col-8">
-    <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true" class="scrollspy-example-2" tabindex="0">
-      <div id="item-1">
-        <h4>Item 1</h4>
-        <p>...</p>
-      </div>
-      <div id="item-1-1">
-        <h5>Item 1-1</h5>
-        <p>...</p>
-      </div>
-      <div id="item-1-2">
-        <h5>Item 1-2</h5>
-        <p>...</p>
-      </div>
-      <div id="item-2">
-        <h4>Item 2</h4>
-        <p>...</p>
-      </div>
-      <div id="item-3">
-        <h4>Item 3</h4>
-        <p>...</p>
-      </div>
-      <div id="item-3-1">
-        <h5>Item 3-1</h5>
-        <p>...</p>
-      </div>
-      <div id="item-3-2">
-        <h5>Item 3-2</h5>
-        <p>...</p>
-      </div>
-    </div>
-  </div>
-</div>
+          <div class="col-8">
+            <div data-bs-spy="scroll" data-bs-target="#user-research" data-bs-smooth-scroll="true" class="scrollspy-example-2" tabindex="0">
+              <div id="item-1">
+                <h4>Research Objective</h4>
+                <p>The goal of this study is to understand participant’s processes of planning a trip. More specifically, discover their past experiences traveling with pets and how they negotiate their plans to consider their pets
+                </p>
+              </div>
+
+              <div id="item-2">
+                <h4>Proto-Persona</h4>
+                <p>...</p>
+              </div>
+              <div id="item-3">
+                <h4>User Interviews</h4>
+                <p>...</p>
+              </div>
+              <div id="item-4">
+                <h5>User Insights</h5>
+                <p>...</p>
+              </div>
+              <div id="item-4-1">
+                <h5>Affinity Diagram</h5>
+                <p>...</p>
+              </div>
+              <div id="item-4-2">
+                <h5>Emapthy Map</h5>
+                <p>...</p>
+              </div>
+              <div id="item-4-3">
+                <h5>User Persona</h5>
+                <p>...</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
             
-            
-            
+     
         </div>
         <!-- Footer -->
         <div class = "container-fluid" id="footer-container", style="background-color: #f3f3f3">
