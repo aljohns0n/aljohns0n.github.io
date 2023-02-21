@@ -76,8 +76,13 @@
 h3{
     font-family:"Playfair Display";
     font-weight:600;
+    font-size:2em;
 }
 
+/*formatting the sub-section headers*/
+h4{
+    font-family:"Be Vietnam Pro";
+}
 p{
     font-family:"Be Vietnam Pro";
     color:#939393;
