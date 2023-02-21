@@ -121,6 +121,13 @@
         font-weight: 800;
         letter-spacing: 1.1px;
     }
+    
+h5{
+    font-family:"Be Vietnam Pro";
+    padding-left:3em;
+    padding-top:2em;
+    
+}
 p{
     font-family:"Be Vietnam Pro";
     color:#939393;
