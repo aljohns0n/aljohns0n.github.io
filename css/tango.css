@@ -72,6 +72,11 @@
 
 }
 
+/*formatting the section headers*/
+h3{
+    font-family:"Playfair Display";
+    font-weight:600;
+}
 
 /* css to change with bootstrap responsive size */
 @media only screen and (max-width: 767px) {
