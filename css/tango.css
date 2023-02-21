@@ -150,6 +150,17 @@ p{
         border-radius: .25rem;
     }
 
+.item-context-formatting{
+    padding-bottom:2em;
+    
+    
+}
+
+#research-obj-formatting{
+    text-align: center;
+    border:0;
+    box-shadow: 0 0 1em rgba(205, 205, 205, .4);
+}
 /* css to change with bootstrap responsive size */
 @media only screen and (max-width: 767px) {
     /* styling "tango" text*/
