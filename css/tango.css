@@ -25,3 +25,7 @@
         border-bottom: 3px solid;
 
     }
+
+    .dropdown-item.active{
+        background-color:#C72A85;
+    }
