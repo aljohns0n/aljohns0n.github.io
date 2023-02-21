@@ -72,17 +72,26 @@
 
 }
 
-/*formatting the section headers*/
-h3{
-    font-family:"Playfair Display";
-    font-weight:600;
-    font-size:2em;
+/* formatting layout of proj overivew*/
+    .overview-sub-title-heading{
+        margin-top:2em;
+    }
+#overview-col2format{
+    padding-left:2em;
 }
 
+/*formatting the section headers*/
+    h3{
+        font-family:"Playfair Display";
+        font-weight:600;
+        font-size:2em;
+    }
+
 /*formatting the sub-section headers*/
-h4{
-    font-family:"Be Vietnam Pro";
-}
+    h4{
+        font-family:"Be Vietnam Pro";
+        font-size:1.3em;
+    }
 p{
     font-family:"Be Vietnam Pro";
     color:#939393;
@@ -92,11 +101,11 @@ p{
 }
 
 /*override bootstrap list-group-item*/
-.list-group-item{
-   font-family:"Be Vietnam Pro";
-    border: 0;
-    padding:0;
-}
+    .list-group-item{
+       font-family:"Be Vietnam Pro";
+        border: 0;
+        padding:0;
+    }
 
 /* css to change with bootstrap responsive size */
 @media only screen and (max-width: 767px) {
